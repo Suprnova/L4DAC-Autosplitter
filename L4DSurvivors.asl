@@ -7,7 +7,7 @@ state("left4dead2", "1.26")
 {
 	string32 whatsLoading     : "engine.dll", 0x6CDAF8;
 	bool     gameLoading      : "engine.dll", 0x4AA08E;
-	bool	 inGame			  : "engine.dll", 0x491ED8;
+	bool	 inGame           : "engine.dll", 0x491ED8;
 	bool     cutscenePlaying1 : "client.dll", 0x8A5E24;
 	bool     cutscenePlaying2 : "client.dll", 0x8A5F38;
 	bool     finaleTrigger1   : "client.dll", 0x9279F0;
@@ -21,7 +21,7 @@ state("left4dead2", "1.30")
 {
 	string32 whatsLoading     : "engine.dll", 0x495EF0;
 	bool     gameLoading      : "engine.dll", 0x4A708E;
-	bool	 inGame			  : "engine.dll", 0x48EED8;
+	bool	 inGame           : "engine.dll", 0x48EED8;
 	bool     cutscenePlaying1 : "client.dll", 0x8A1DA4;
 	bool     cutscenePlaying2 : "client.dll", 0x8A1EB8;
 	bool     finaleTrigger1   : "client.dll", 0x923970;
